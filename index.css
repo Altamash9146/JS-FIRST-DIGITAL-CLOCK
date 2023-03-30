@@ -17,7 +17,7 @@ body{
     color: #3D087B;
     width: 450px; height: 325px;
     border-radius: 8px;
-    position: relative; left: 10;
+    position: relative; left: 10%;
 }
 .W{
     background-image: url(./wake_up.svg);
