@@ -22,7 +22,7 @@ function callme(){
     let timezone = ` ${hours} Hours `
     let timezone1 = ` ${mins} Mins`
     let timezone2 =` ${secs} Secs`
-    console.log(hours, mins, secs);
+    // console.log(hours, mins, secs);
     clock1[0].innerText = timezone
     clock1[1].innerText = timezone1
     clock1[2].innerText = timezone2
@@ -131,9 +131,9 @@ function settalarm(){
 
 }
 
-window.addEventListener('DOMContentLoaded', function() {
-    if (window.innerWidth <= 768) {
-      document.body.style.overflow = 'hidden';
-    }
-  });
+// window.addEventListener('DOMContentLoaded', function() {
+//     if (window.innerWidth <= 768) {
+//       document.body.style.overflow = 'hidden';
+//     }
+//   });
   
